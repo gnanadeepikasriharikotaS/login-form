@@ -5,6 +5,12 @@ This project is perfect for students who want to learn how authentication works 
 
 ---
 
+## ✅ Live Demo Links
+**Frontend:** https://login-form-frontend.onrender.com  
+**Backend:** https://login-form-backend-c8i5.onrender.com
+
+---
+
 ## ✅ Features
 - User Login  
 - User Registration  
@@ -21,22 +27,22 @@ This project is perfect for students who want to learn how authentication works 
 ### ✅ 1. Clone the Project
 git clone <your-repo-url>
 cd your-project
+---
+
 ### ✅ 2. Setup Backend
+```bash
 cd backend
 npm install
 Create a `.env` file inside **backend**:
 MONGO_URI=your_mongo_atlas_url
 PORT=5000
-
-sql
-Copy code
-
-Start backend:
+Start backend: server.js
 Backend URL:
 http://localhost:5000
 ---
-
+```
 ### ✅ 3. Setup Frontend
+```bash
 cd ../frontend
 npm install
 npm start
@@ -45,7 +51,7 @@ Frontend URL:
 http://localhost:3000
 
 ---
-
+```
 ## ✅ How This App Works
 1. User fills the login or register form  
 2. React sends data to backend using Axios  
