@@ -27,7 +27,7 @@ function Register() {
 
     try {
       // Send POST request to backend
-      const res = await axios.post('http://localhost:5000/register', {
+      const res = await axios.post('https://login-form-backend-c8i5.onrender.com/register', {
         name,
         email,
         password,
